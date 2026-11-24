@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover elegant fashion, shoes, handbags and accessories at Rahma Luxe Boutique.">
+  <title>Rahma Luxe Boutique | Kabasinguzi Rahma</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fffaf0; color: #333; }
+    .site-header { background: #fff; padding: 25px 5%; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .owner-name { color: #b08d57; letter-spacing: 4px; font-size: 18px; margin-bottom: 15px; }
+    .logo { display: block; color: #222; text-decoration: none; font-size: 30px; font-weight: bold; letter-spacing: 3px; margin-bottom: 15px; }
+    .logo span, h1 span, h2 span { color: #b08d57; }
+    nav a { text-decoration: none; color: #333; margin: 10px; font-size: 14px; }
+    nav a:hover { color: #b08d57; }
+    .hero { min-height: 550px; display: flex; align-items: center; padding: 60px 8%; background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=85') center/cover; color: white; }
+    .hero-content { max-width: 550px; }
+    .eyebrow { color: #b08d57; letter-spacing: 3px; margin-bottom: 20px; font-size: 13px; }
+    h1 { font-size: 55px; margin-bottom: 20px; }
+    .hero-copy { line-height: 1.7; margin-bottom: 30px; }
+    .button { display: inline-block; background: #b08d57; color: white; padding: 14px 25px; text-decoration: none; border-radius: 3px; }
+    .button:hover { background: #8c6c3e; }
+    .section { padding: 80px 8%; text-align: center; }
+    .section h2, .contact h2 { font-size: 35px; margin-bottom: 20px; }
+    .intro p:last-child { max-width: 750px; margin: auto; line-height: 1.8; }
+    .section-heading { margin-bottom: 35px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 25px; }
+    .card { background: white; box-shadow: 0 4px 15px rgba(0,0,0,.08); }
+    .card img { width: 100%; height: 300px; object-fit: cover; }
+    .card-caption { padding: 20px; }
+    .card-caption h3 { margin-bottom: 10px; color: #b08d57; }
+    .quote-band { background: #2b2723; color: white; text-align: center; padding: 65px 20px; }
+    .quote-band p { font-size: 24px; margin-bottom: 15px; }
+    .quote-band span { color: #b08d57; letter-spacing: 2px; }
+    .contact { line-height: 2; }
+    .contact .button { margin: 20px 0; }
+    .contact-note { color: #b08d57; }
+    footer { background: #211e1b; color: white; text-align: center; padding: 45px 20px; line-height: 2; }
+    footer h2 { color: #b08d57; letter-spacing: 4px; margin-bottom: 15px; }
+    footer .logo { color: white; }
+    footer p { font-size: 14px; }
+    @media(max-width: 600px) {
+      h1 { font-size: 40px; }
+      nav a { display: inline-block; margin: 8px; }
+      .hero { min-height: 450px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h2 class="owner-name">KABASINGUZI RAHMA</h2>
+    <a class="logo" href="#home">RAHMA <span>LUXE</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#collections">Collections</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">STYLE • CLASS • CONFIDENCE</p>
+        <h1>Elegance is<br><span>an attitude.</span></h1>
+        <p class="hero-copy">Discover timeless pieces that make every moment feel special.</p>
+        <a class="button" href="#collections">Explore the collection</a>
+      </div>
+    </section>
+    <section class="intro section" id="about">
+      <p class="eyebrow">WELCOME TO RAHMA LUXE</p>
+      <h2>Fashion that tells <span>your story.</span></h2>
+      <p>Rahma Luxe Boutique is a fashion destination for confident individuals who love looking and feeling their best. We bring together elegant styles, beautiful details and everyday comfort.</p>
+    </section>
+    <section class="section collections" id="collections">
+      <div class="section-heading">
+        <p class="eyebrow">FIND YOUR LOOK</p>
+        <h2>Our Collections</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85" alt="Elegant women's fashion">
+          <div class="card-caption"><h3>Women's Wear</h3><p>Beautiful looks for every occasion.</p></div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=85" alt="Stylish women's shoes">
+          <div class="card-caption"><h3>Shoes</h3><p>Step out with confidence.</p></div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=85" alt="Luxury handbag">
+          <div class="card-caption"><h3>Handbags</h3><p>The perfect finishing touch.</p></div>
+        </article>
+      </div>
+    </section>
+    <section class="quote-band" id="gallery">
+      <p>“Style is a way to say who you are without having to speak.”</p>
+      <span>— RAHMA LUXE BOUTIQUE</span>
+    </section>
+    <section class="contact section" id="contact">
+      <p class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</p>
+      <h2>Get in <span>touch.</span></h2>
+      <p>For product enquiries, orders or more information, contact us.</p>
+      <p>Phone: 0745583129</p>
+      <a class="button" href="mailto:rahmakara143@gmail.com">Email the boutique</a>
+      <p class="contact-note">rahmakara143@gmail.com</p>
+    </section>
+  </main>
+  <footer>
+    <h2>KABASINGUZI RAHMA</h2>
+    <a class="logo" href="#home">RAHMA <span>LUXE</span></a>
+    <p>© 2026 Rahma Luxe Boutique. All rights reserved.</p>
+    <p>Elegance is an attitude.</p>
+  </footer>
+</body>
+</html>
